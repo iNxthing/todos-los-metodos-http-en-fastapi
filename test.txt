@@ -1,0 +1,14 @@
+@app.put("/ActaulizarLucahdor{id}")
+
+def actualizar_ganador(id1: int,id2: int):
+    idluchador1 = 0
+    idluchador2 = 0
+    ganador = randint(idluchador1,idluchador2)
+
+    for l in luchadores:
+
+        if l["id"]== id1:     
+          idluchador1 = l
+
+        if l["id"]== id2:     
+          idluchador2 = l
